@@ -1,3 +1,7 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,13 +9,14 @@
 }
 
 .clearfix::after{
-    content: " ";
+    content: "";
     display: table;
     clear: both;
 }
 
 body{
-    margin: 0 200px;
+    margin: 0 400px;
+    height: 1230px;
 }
 
 .main-container{
@@ -19,12 +24,8 @@ body{
     height: 400px;
 }
 
-.header-container{
-    height: 90px;
-}
-
 .title{
-    height: 70px;
+    padding: 15px 0;
 }
  .table-container{
     height: 500px;
@@ -51,26 +52,27 @@ body{
 
 .logo-img{
     width: 130px;
+    padding: 0.75rem;
 }
 
 .int-img{
     background-image: url(./img/banner.jpg);
-    height:650px;
+    height:460px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .int-text{
     width: 50%;
-    padding: 450px 0 0 4rem;
+    padding: 300px 0 0 4rem;
     border-radius: 10px;
+    color: white;
 }
 
 .col-1-img{
     background-image: url(./img/img-1.jpg);
-    height: 45%; 
+    height: 33%; 
     background-size: cover;
     background-position: center;      
     filter: brightness(0.9);
@@ -78,7 +80,7 @@ body{
 
 .col-2-img{
     background-image: url(./img/banner-2.jpg);
-    height: 45%; 
+    height: 33%; 
     background-size: cover; 
     background-position: center;
     filter: brightness(0.9);
@@ -86,11 +88,41 @@ body{
 
 .col-3-img{
     background-image: url(./img/img-3.jpg);
-    height: 45%; 
+    height: 33%; 
     background-size: cover; 
     background-position: center;
     filter: brightness(0.9);
 }
 .b{
     border-radius: 10px;
+}
+
+main{
+    height: 100%;
+}
+
+footer{
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: #9f9f9f;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+nav{
+    padding: 1.25rem 0;
+}
+
+h1{
+    font-weight: bold;
+    font-family: sans-serif;
 }
