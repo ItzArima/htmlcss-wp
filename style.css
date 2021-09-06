@@ -27,9 +27,6 @@ body{
 .title{
     padding: 25px 0;
 }
- .table-container{
-    height: 500px;
-}
 
 .table-col-1{
     float: left;
@@ -73,7 +70,7 @@ body{
 
 .col-1-img{
     background-image: url(./img/img-1.jpg);
-    height: 33%; 
+    height: 165px; 
     background-size: cover;
     background-position: center;      
     filter: brightness(0.9);
@@ -81,7 +78,7 @@ body{
 
 .col-2-img{
     background-image: url(./img/banner-2.jpg);
-    height: 33%; 
+    height: 165px; 
     background-size: cover; 
     background-position: center;
     filter: brightness(0.9);
@@ -89,7 +86,7 @@ body{
 
 .col-3-img{
     background-image: url(./img/img-3.jpg);
-    height: 33%; 
+    height: 165px; 
     background-size: cover; 
     background-position: center;
     filter: brightness(0.9);
