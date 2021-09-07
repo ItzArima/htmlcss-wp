@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    margin: 0 400px;
+    margin: 0 auto;
 }
 
 .main-container{
@@ -130,4 +130,8 @@ h3{
 
 .w{
     color:#9f9f9f ;
+}
+
+.container{
+    padding: 0 25rem;
 }
